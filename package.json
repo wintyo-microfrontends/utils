@@ -2,11 +2,19 @@
   "name": "@wintyo-microfrontends/utils",
   "version": "0.0.0",
   "description": "utility package",
-  "main": "index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "dist/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wintyo-microfrontends/utils.git"
+  },
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
