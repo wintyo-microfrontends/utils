@@ -1,0 +1,15 @@
+{
+  "name": "@wintyo-microfrontends/utils",
+  "version": "0.0.0",
+  "description": "utility package",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wintyo <wintyo1024@gmail.com>",
+  "license": "MIT"
+}
